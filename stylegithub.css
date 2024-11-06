@@ -1,0 +1,73 @@
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Image de profil */
+header img {
+    width: 120px;       /* Taille de l'image (exemple pour CV) */
+    height: 120px;      /* Taille fixe en hauteur */
+    border-radius: 50%; /* Forme ronde */
+    margin-top: 10px;
+    object-fit: cover;
+    border: 2px solid #333; /* Bordure autour de l'image */
+}
+
+/* Liens de réseaux sociaux */
+.links {
+    width: 100%;
+    max-width: 400px;
+}
+
+.link-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #0077ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #005bb5;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.9em;
+}
+
